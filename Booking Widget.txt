@@ -1,0 +1,18 @@
+<script src="//simplybook.me/v2/widget/widget.js"></script>
+
+
+
+<script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/moksha.simplybook.me","theme":"hugo","theme_settings":{"timeline_show_end_time":"0","timeline_modern_display":"as_slots","nav_bg_color":"#ffffff","sb_base_color":"#6b8947","display_item_mode":"list","body_bg_color":"#ffffff","dark_font_color":"#404040","light_font_color":"#ffffff","sb_company_label_color":"#ffffff","hide_img_mode":"0","show_sidebar":"1","sb_busy":"#dad2ce","sb_available":"#d3e0f1"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
+
+
+
+ You can set client info in widget through adding client data to predefined section in widget code
+
+"predefined": {
+    "client": {
+        ...,
+        "name": "Predefined client name",
+        "email": "Predefined client email",
+        "phone": "Predefined client phone"
+    }
+}
